@@ -1,0 +1,29 @@
+.todoListInput {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-bg-varient);
+  background-color: var(--color-white);
+  width: 10rem;
+}
+
+.expired p {
+  color: red;
+  text-decoration: line-through;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+}
+
+.addingTodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

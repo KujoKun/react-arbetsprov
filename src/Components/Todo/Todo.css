@@ -1,0 +1,23 @@
+li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+blockquote {
+  width: 11rem;
+  word-wrap: break-word;
+}
+
+li p {
+  width: 9.4rem;
+  text-align: center;
+}
+
+li input {
+  width: 9.4rem;
+  height: 1.4rem;
+}
+li button {
+  margin-left: 1rem;
+}

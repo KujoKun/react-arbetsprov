@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:root {
+  --color-bg: #9999ff;
+  --color-bg-varient: #7e7ed4;
+  --color-white: #e6ecff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+button {
+  padding: 0.3rem 1.2rem;
+  border-radius: 2em;
+  background-color: var(--color-light);
+}
+
+button:hover {
+  background-color: var(--color-bg-varient);
+  border-color: transparent;
+  transition: var(--transition);
+}
